@@ -1,0 +1,8 @@
+<h1>Create a New Lamp</h1>
+<%= form_tag "/lamps", method: :post do %>
+  <p>Material: <input type="text" name="material"></p>
+  <p>Color: <input type="text" name="color"></p> 
+  <p>Bulbs: <input type="text" name="bulbs"></p>
+  <p>Manufacturer: <input type="text" name="manufacturer"></p>
+  <input type="submit" name="Create New Lamp">
+<% end %>
